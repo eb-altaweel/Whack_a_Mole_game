@@ -40,7 +40,6 @@
 - [ ] Add sound effects when mole is hit or game ends
 - [x] Add a countdown timer
 - [x] Randomize mole appearance
-- [x] ~~Basic game logic completed~~
 
 ---
 
