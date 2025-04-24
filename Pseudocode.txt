@@ -1,0 +1,36 @@
+1. Create game elements:
+   - Multiple holes (where the mole can appear)
+   - A mole element to show/hide
+   - A score display
+   - A countdown timer display
+   - A "Start Game" button
+
+2. When the page loads:
+   - Hide all moles
+   - Set initial score to 0
+   - Set initial timer (e.g., 30 seconds)
+
+3. When the "Start Game" button is clicked:
+   - Reset score to 0
+   - Reset timer to 30 seconds
+   - Start two intervals:
+     - One for randomly popping up moles
+     - One for counting down the game timer
+
+4. In the mole interval (e.g., every 800ms–1000ms):
+   - Hide the mole from all holes
+   - Randomly select one hole
+   - Display the mole in that hole
+
+5. When the player clicks on a mole:
+   - Increase the score by 1
+   - Update the score display
+   - Hide the mole immediately
+
+6. In the countdown interval (every 1 second):
+   - Decrease the time by 1 second
+   - Update the timer display
+   - If the timer reaches 0:
+     - Stop both intervals
+     - Show "Time's Over" message
+     - Disable mole clicks
