@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Whack A Mole - Home</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Whack A Mole</h1>
-    <div class="form-container">
-      <div class="form-group">
-        <label>Choose Difficulty:</label>
-        <div class="options">
-          <label
-            ><input type="radio" name="difficulty" value="fast" checked />
-            Fast</label
-          >
-          <label
-            ><input type="radio" name="difficulty" value="medium" />
-            Medium</label
-          >
-          <label
-            ><input type="radio" name="difficulty" value="slow" /> Slow</label
-          >
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Whack A Mole - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Whack A Mole</h1>
 
-      <div class="form-group">
-        <label>Choose Game Time:</label>
-        <div class="options">
-          <label
-            ><input type="radio" name="time" value="15000" checked /> 15
-            Seconds</label
-          >
-          <label
-            ><input type="radio" name="time" value="30000" /> 30 Seconds</label
-          >
-          <label
-            ><input type="radio" name="time" value="60000" /> 60 Seconds</label
-          >
-        </div>
+  <div class="form-container glass-card">
+    <div class="form-group">
+      <label class="form-title">Choose Difficulty:</label>
+      <div class="options">
+        <label><input type="radio" name="difficulty" value="fast" checked /> Fast</label>
+        <label><input type="radio" name="difficulty" value="medium" /> Medium</label>
+        <label><input type="radio" name="difficulty" value="slow" /> Slow</label>
       </div>
-
-      <button id="start-btn">Start Game</button>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="form-group">
+      <label class="form-title">Choose Game Time:</label>
+      <div class="options">
+        <label><input type="radio" name="time" value="15000" checked /> 15 Seconds</label>
+        <label><input type="radio" name="time" value="30000" /> 30 Seconds</label>
+        <label><input type="radio" name="time" value="60000" /> 60 Seconds</label>
+      </div>
+    </div>
+
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
