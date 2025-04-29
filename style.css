@@ -21,7 +21,7 @@ h1 {
   font-size: 36px;
 }
 
-#game-board {
+.holes {
   display: grid;
   grid-template-columns: repeat(3, 120px);
   gap: 70px;
