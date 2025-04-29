@@ -1,4 +1,7 @@
 /* General Styles */
+* {
+  cursor: url('hammer.png') 30 30, auto;
+}
 body {
   text-align: center;
   background-color: #222;
@@ -6,10 +9,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  cursor: url('hammer.png') 60 60, auto;
+  /* cursor: url('hammer.png') 60 60, auto; */
 }
 
-body:active {
+*:active {
   cursor: url('hammer-hit.png') 30 30, auto;
 }
 
